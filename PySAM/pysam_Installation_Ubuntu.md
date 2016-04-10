@@ -11,10 +11,13 @@ conda install -c bioconda pysam
 `
 $ python
 `
+
 `
-<br>Python 3.4.4 |Anaconda 2.3.0 (64-bit)| (default, Jan 11 2016, 13:54:01) 
-<br>[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
-<br>Type "help", "copyright", "credits" or "license" for more information.
+Python 3.4.4 |Anaconda 2.3.0 (64-bit)| (default, Jan 11 2016, 13:54:01) 
+
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
+
+Type "help", "copyright", "credits" or "license" for more information.
 `
 
 Succeed!
