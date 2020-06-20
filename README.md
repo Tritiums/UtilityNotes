@@ -22,6 +22,12 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
 ```
 
+## 3. PyInstaller in Raspberry Pi
+After the installation, the path of PyInstaller is in the path:
+```
+ /home/pi/.local/bin/pyinstaller 
+```
+
 ## License
 The MIT License (MIT)
 
