@@ -28,6 +28,18 @@ After the installation, the path of PyInstaller is in the path:
  /home/pi/.local/bin/pyinstaller 
 ```
 
+## 4. Screenshot in Raspberry Pi
+Use the command line in Terminal:
+```
+scrot
+```
+Make a delayed screenshot:
+```
+scrot -d 10
+```
+where 10 equals the number of seconds you wish to delay the shutter.
+
+
 ## License
 The MIT License (MIT)
 
