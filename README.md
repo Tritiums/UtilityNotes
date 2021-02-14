@@ -40,6 +40,11 @@ scrot -d 10
 where 10 equals the number of seconds you wish to delay the shutter.
 
 
+## 5. Solve the dll problem of Python installation
+After the installation of Anaconda, go to the website of Microsoft:
+
+https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+
 ## License
 The MIT License (MIT)
 
