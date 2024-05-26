@@ -52,14 +52,14 @@ Use the command line in Terminal:
 sudo chown -R $USER:$USER /data
 ```
 
-Where /data is the path to where the drive is mounted - if you do this in the wrong place it will likely break things.
-$USER is replaced with the user's username by the shell.
+Where **/data** is the path to where the drive is mounted - if you do this in the wrong place it will likely break things.
+**$USER** is replaced with the user's username by the shell.
 
 
 ## 7. Run debian package in Ubuntu
 Use the command line in Terminal:
 ```
-sudo dkpg -i $packagename.deb
+sudo dpkg -i $packagename.deb
 ```
 
 
