@@ -51,8 +51,7 @@ Use the command line in Terminal:
 ```
 sudo chown -R $USER:$USER /data
 ```
-Make a delayed screenshot:
-```
+
 Where /data is the path to where the drive is mounted - if you do this in the wrong place it will likely break things.
 $USER is replaced with the user's username by the shell.
 
