@@ -45,6 +45,25 @@ After the installation of Anaconda, go to the website of Microsoft:
 
 https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
 
+
+## 6. Ubuntu denied when writing a file to new filesystem
+Use the command line in Terminal:
+```
+sudo chown -R $USER:$USER /data
+```
+Make a delayed screenshot:
+```
+Where /data is the path to where the drive is mounted - if you do this in the wrong place it will likely break things.
+$USER is replaced with the user's username by the shell.
+
+
+## 7. Run debian package in Ubuntu
+Use the command line in Terminal:
+```
+sudo dkpg -i $packagename.deb
+```
+
+
 ## License
 The MIT License (MIT)
 
